@@ -1,5 +1,5 @@
 # Basics of html
-Do structure a basic document you need to use a system of **tags**, which are the essential
+To structure a basic document you need to use a system of **tags**, which are the essential
 building blocks of Web site. Think of them as the skeleton of your website, as they define
 the layout of your website.
 
@@ -28,11 +28,14 @@ Every webpage you'll make has the following base set of tags:
 </html>
 ```
 
-So from now on every document you'll make will have the structure as above. Each of the tags has some sort of meaning:
+So from now on every document you'll make will have the structure as above.
 
-  - `html` is the root html tag which described an html document
+  - `html` is always the first html tag you'll write and is the root of the document
   - `head` contains mostly tags that instruct the **browser** on how to do things
   - `body` the content of our web site, and the part that the actual site users experiences
+
+You might have also noticed `<!DOCTYPE html>` in the above example, and this is not a tag!
+This is important for the browser itself, so that it knows that you're doing a **version 5 of html** (HTML 5)
 
 ## The anatomy of a tag
 A HTML tag can either be a pair of opening and closing tags, or a more rare self closing tag.
@@ -61,4 +64,24 @@ us group tags into meaningful groups so we can easly style them later (more on s
 tags give additional functionality from the browser to the tags.
 
 Note that you can use organizational tags on *any HTML tag*, and you can't use `href` on any other tag other then
-the anchor `<a>` because it will not have any effect.
+the anchor `<a>` because it will not have any effect. To get a full list of attributes a tag can accept, just
+go to [W3Schools](https://www.w3schools.com/tags/tag_img.asp)
+
+So to get back at our `<img />` example, it doesn't do anything on it's own, but if you add `src` attribute
+to it, you'll get the browser to display an image from that `src` attribute. The image can come from your own
+location, or somewhere online.
+
+```html
+<img src="https://via.placeholder.com/150" />
+```
+
+Let's say you also want to add a link functionality to an image, and you can. Just combine what we've learned so
+far!
+
+```html
+<a href="https://via.placeholder.com/150" target="_blank">
+  <img src="https://via.placeholder.com/150" />
+</a>
+```
+
+Try clicking it! You'll see that the image will open in the new tab 
