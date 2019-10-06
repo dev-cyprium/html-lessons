@@ -58,14 +58,14 @@ Attributes can be specified for **any html tag** and look like this:
 
 We just applied the 3 attributes `myAttribute`, `myOtherAttribute` and `class` to our `<h1>` html element!
 
-Attributes themselfs can be categorized into organizational tags like eg. `class` and `id` and functional tags,
-like eg. `type`, `href` and `src`. Organizational tags *don't do anything on their own*, but rather help
+Attributes themselves can be categorized into organizational attributes like eg. `class` and `id` and functional attributes,
+like eg. `type`, `href` and `src`. Organizational attributes *don't do anything on their own*, but rather help
 us group tags into meaningful groups so we can easly style them later (more on styling later), while functional
-tags give additional functionality from the browser to the tags.
+attributes give additional functionality from the browser to the tags.
 
-Note that you can use organizational tags on *any HTML tag*, and you can't use `href` on any other tag other then
-the anchor `<a>` because it will not have any effect. To get a full list of attributes a tag can accept, just
-go to [W3Schools](https://www.w3schools.com/tags/tag_img.asp)
+Note that you can use organizational attributes on *any HTML tag*, and you can't use a functional attribute for example `href` on any other tag other then
+the anchor `<a>` because it will not have any effect. To get a full list of what attributes a tag can accept, just
+go to [W3Schools](https://www.w3schools.com/tags/tag_img.asp).
 
 So to get back at our `<img />` example, it doesn't do anything on it's own, but if you add `src` attribute
 to it, you'll get the browser to display an image from that `src` attribute. The image can come from your own
