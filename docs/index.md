@@ -93,3 +93,6 @@ The most fun you'll have is exploring on your own, here are some ideas you can d
  - Using HTML tags, try making this example yourself
  
  ![exercise](https://raw.githubusercontent.com/dev-cyprium/html-lessons/master/docs/assets/exercise.png)
+
+
+See you in the [next lesson](css.md) on basics of CSS
