@@ -85,3 +85,10 @@ far!
 ```
 
 Try clicking it! You'll see that the image will open in the new tab 
+
+## Now It's your turn!
+The most fun you'll have is exploring on your own, here are some ideas you can do:
+ - Go to [W3 Schools](https://www.w3schools.com/html/html_intro.asp) read their HTML tutorial
+ - Open up your Visual Studio Code + Live Server, try adding various tags too see their effects
+ - Using HTML tags, try making this example yourself
+ - ![exercise](https://github.com/dev-cyprium/html-lessons/tree/master/docs/assets/exercise.png)
